@@ -5,13 +5,13 @@ Data Projects (TripleTen)
 ### Project Overview
 This project aims to develop a computer vision model that verifies the age of individuals purchasing alcohol, ensuring compliance with age-related sales regulations. The Good Seed supermarket chain is looking to automate the process of verifying the age of customers at checkout to prevent alcohol sales to underage individuals. Using images captured at checkout, we trained a machine learning model to predict the age of individuals, helping the supermarket chain adhere to alcohol laws.
 
-Project Goal
+### Project Goal
 The primary objective of this project is to build a reliable age verification system that automatically determines whether a customer is above the legal age for alcohol consumption. The model processes photographs taken during the transaction and provides an age estimate, which is then used to verify if the customer is legally allowed to purchase alcohol.
 
-Dataset
+### Dataset
 The dataset used in this project consists of photographs of customers along with their real ages. The data includes images of customers from different age groups, ranging from 0 to 100 years old, and it is pre-labeled with the corresponding ages. For the purpose of training the model, we focused on customers aged between 12 and 90 years old.
 
-Key Fields in the Dataset:
+#### Key Fields in the Dataset:
 Image: A photograph of the customer.
 real_age: The actual age of the person in the photo (target variable).
 ds_part: Indicates whether the sample is part of the training or testing set.
@@ -36,10 +36,10 @@ Results and Conclusions:
 The model showed promising results with a decreasing trend in loss and MAE during training.
 The slight increase in loss and MAE in the later epochs indicates potential overfitting, suggesting that further tuning or regularization techniques could improve generalization.
 
-Conclusion
+### Conclusion
 By building and evaluating a computer vision model for age verification, this project provides a framework for automating age checks at checkout counters. The model has shown promising results, with further improvements possible through tuning and addressing overfitting. With this system in place, the Good Seed supermarket chain can ensure that they comply with alcohol sales laws by automatically verifying customers' ages in real-time at the point of purchase.
 
-Future Improvements
+### Future Improvements
 Investigate ways to handle overfitting, such as by introducing regularization or data augmentation techniques.
 Explore the use of more advanced deep learning models, such as convolutional neural networks (CNNs), to improve accuracy.
 Implement a real-time inference system for integration with the checkout systems.
