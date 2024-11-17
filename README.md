@@ -1,8 +1,8 @@
 Data Projects (TripleTen)
-# Project_15 Computer Vision
-Project-15:  Building a Computer Vision Model to Verify Age for Compliance with Alcohol Sales Laws
+#### Project_15 Computer Vision
+# Project-15:  Building a Computer Vision Model to Verify Age for Compliance with Alcohol Sales Laws
 
-Project Overview
+### Project Overview
 This project aims to develop a computer vision model that verifies the age of individuals purchasing alcohol, ensuring compliance with age-related sales regulations. The Good Seed supermarket chain is looking to automate the process of verifying the age of customers at checkout to prevent alcohol sales to underage individuals. Using images captured at checkout, we trained a machine learning model to predict the age of individuals, helping the supermarket chain adhere to alcohol laws.
 
 Project Goal
